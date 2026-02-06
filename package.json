@@ -1,15 +1,18 @@
 {
-  "name": "Hello world",
+  "name": "react-vite-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Reusable React + Vite frontend template with scalable architecture",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "axios": "^1.13.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
