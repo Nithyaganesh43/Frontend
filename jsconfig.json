@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/jsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": ["src"]
+}
